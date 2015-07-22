@@ -95,6 +95,3 @@ end
 def multiply_els(numbers)
 	numbers.my_inject { |product, n| product * n }
 end
-
-catproc = Proc.new { "cat" }
-print (1..4).my_map(catproc) { "dog" }
